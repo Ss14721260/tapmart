@@ -8,6 +8,19 @@ import {
 } from "../app/features/cart/cartSlice";
 
 const Cart = () => {
+  const checkoutbtn = {
+    display:'button',
+    width:'200px',
+    background: 'purple',
+    fontSize:'150%',
+    color:'white',
+    fontWeight:'700',
+    border:'2px solid black',
+    borderRadius:'100px',
+    paddingTop:'1%',
+    paddingBottom:'1%',
+    marginBottom:'5%',
+  };
   const { cartList } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   // middlware to localStorage
@@ -17,6 +30,7 @@ const Cart = () => {
   );
   useEffect(() => {
     window.scrollTo(0, 0);
+    
     // if(CartItem.length ===0) {
     //   const storedCart = localStorage.getItem("cartItem");
     //   setCartItem(JSON.parse(storedCart));
@@ -86,6 +100,9 @@ const Cart = () => {
             </div>
           </Col>
         </Row>
+        <row className="justify-content-center">
+      <div className="about text-center"><button style={checkoutbtn}>checkout</button></div>
+        </row>
       </Container>
     </section>
   );

@@ -21,7 +21,7 @@ const ProductCard = ({ title, productItem }) => {
         <span className="discount">{productItem.discount}% Off</span>
       ) : null}
       <img
-        loading="lazy"
+        loading="eager"
         onClick={() => handelClick()}
         src={productItem.imgUrl}
         alt=""
