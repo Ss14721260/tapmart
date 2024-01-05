@@ -15,7 +15,7 @@ const Footer = () => {
         <img src={footer} alt="Tapmart Logo" />
       </h1>
               </div>
-              <p>    "Welcome to our online store, where you can find a wide range of high-quality furniture and home decor. Our mission is to provide stylish and functional solutions to enhance your living spaces.",</p>
+              <p class="tfc">Thanks for visiting to our Website</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>About Us</h2>
@@ -40,9 +40,9 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <h2>Contact Us</h2>
               <ul>
-                <li>70 Washington Square South, New York, NY 10012, United States </li>
-                <li>Email: uilib.help@gmail.com</li>
-                <li>Phone: +1 1123 456 780</li>
+                <li>H-149, Sector 62 Rd, Noida, Uttar Pradesh 201301</li>
+                <li>Email: hello@tapmo.in</li>
+                <li>Phone:+91 9971420130</li>
               </ul>
             </Col>
           </Row>
