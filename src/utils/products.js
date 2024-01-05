@@ -473,11 +473,8 @@ export const products = [
     imgUrl: phone01,
     category: "mobile",
     price: 799,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
+    shortDesc: "Introducing the Apple iPhone 12 Pro, the epitome of innovation and performance.",
+    description: "The Apple iPhone 12 Pro redefines the smartphone experience with its stunning design and powerful features. Equipped with the A14 Bionic chip, this device delivers lightning-fast performance, making it ideal for gaming, photography, and productivity.\n\nCapture the world in extraordinary detail with the triple-camera system, including a LiDAR scanner for enhanced AR experiences. The Ceramic Shield front cover ensures durability, and the 6.1-inch Super Retina XDR display brings content to life with vibrant colors.\n\nExperience the next generation of 5G connectivity, providing faster download and streaming speeds. With iOS 15, enjoy new features and improvements that enhance the overall user experience.\n\nDiscover a new level of innovation with the Apple iPhone 12 Pro where style meets substance.", reviews: [
       {
         rating: 4.8,
         text: "This product is so lovely and cool I love it.",
