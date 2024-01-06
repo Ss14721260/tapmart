@@ -11,7 +11,7 @@ const Cart = () => {
   const checkoutbtn = {
     display:'button',
     width:'200px',
-    background: 'purple',
+    background: '#0f3460',
     fontSize:'150%',
     color:'white',
     fontWeight:'700',
