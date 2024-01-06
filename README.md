@@ -1,8 +1,4 @@
 # Maltimart Ecommerce
-
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
-
 ## 😎 Features
 
 - Beauty UI similar to ecommerce website
@@ -25,7 +21,7 @@ From your command line, first clone this repo:
 
 ```
 # Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
+$ https://github.com/Ss14721260/tapmart
 
 # Go into the repository
 $ cd multimart-react-ecommerce
