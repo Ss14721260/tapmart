@@ -42,3 +42,7 @@ $ npm start
 ```
 👨‍💻 Happy coding!
 ---
+## the main things done in this project by me is the changing the components content.
+```javascript
+
+```
